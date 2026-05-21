@@ -18,7 +18,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: pertemuan11:1.0
+    image: abiedchn/deploypertemuan11_20230140237:1.0
     container_name: pertemuan11
     ports:
       - "8000:8080"
